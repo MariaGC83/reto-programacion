@@ -1,0 +1,26 @@
+//Contacts
+//---------------
+
+.contacts {
+  border-right: 1px solid #dadada;
+
+  &__field {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: rem(22px);
+    width: rem(223px);
+    height: rem(37px);
+    background-color: #fff;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    border-radius: rem(18.5px);
+  }
+  &__field-icon {
+    position: absolute;
+    width: rem(17px);
+    height: rem(16px);
+    top: rem(34px);
+    left: rem(460px);
+  }
+}

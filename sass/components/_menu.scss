@@ -1,0 +1,39 @@
+//Menu
+//--------------
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: rem(250px);
+  height: 100vh;
+  left: 0;
+  right: 0;
+  font-size: $font-size-secondary;
+  font-weight: $font-weight-secondary;
+  background-color: #5d6e6a;
+
+  &__btn {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: rem(250px);
+    height: rem(37px);
+    left: 0;
+    border: 0;
+    cursor: pointer;
+    @include transition();
+      color: #fff;
+      background-color: transparent;
+    &:hover {
+      color: #4a4a4a;
+      background-color: #fff;
+    }
+
+    &--contact {
+      margin-top: rem(22px);
+    }
+    &--fav {
+      margin: rem(23px 0px);
+    }
+  }
+}

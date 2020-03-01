@@ -1,0 +1,26 @@
+{
+  "name": "reto-programacion",
+  "version": "1.0.0",
+  "description": "![](screens/1-detalle.png)",
+  "main": "main.js",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaGC83/reto-programacion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaGC83/reto-programacion/issues"
+  },
+  "homepage": "https://github.com/MariaGC83/reto-programacion#readme"
+}

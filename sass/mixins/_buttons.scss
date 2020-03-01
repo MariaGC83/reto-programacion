@@ -1,0 +1,6 @@
+//Buttons
+//--------------
+
+@mixin transition($val: all 0.08s linear) {
+  transition: $val;
+}
